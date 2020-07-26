@@ -13,6 +13,12 @@
   --first-color: #3aafa9;
   --fs-color: #2B7A78;
   --second-color: #17252a;
+  
+  --darkGreen-color: #17252a;
+  --lightDarkgreen-color: #2B7A78;
+  --mediumGreen-color: #3aafa9;
+  --lightgreen-color: #3aafa9;
+  --whitegreen-color: #def2f1;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -276,7 +282,7 @@ img{
 .skills__icon{
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color: var(--fs-color);
 }
 .skills__names{
   display: flex;
@@ -286,7 +292,7 @@ img{
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: var(--fs-color);
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
@@ -352,7 +358,7 @@ img{
 /* ===== FOOTER =====*/
 .footer{
   background-color: var(--second-color);
-  color: #fff;
+  color: var(--wf-color);
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -366,7 +372,7 @@ img{
 }
 .footer__icon{
   font-size: 1.5rem;
-  color: #fff;
+  color: var(--gwhite-color);
   margin: 0 var(--mb-2)
 }
 
