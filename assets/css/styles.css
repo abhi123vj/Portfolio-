@@ -8,8 +8,11 @@
 
 /*===== Colores =====*/
 :root{
-  --first-color: #4070F4;
-  --second-color: #0E2431;
+  --gwhite-color: #feffff;
+  --wf-color: #def2f1;
+  --first-color: #3aafa9;
+  --fs-color: #2B7A78;
+  --second-color: #17252a;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -323,6 +326,8 @@ img{
 
 /* ===== CONTACT =====*/
 .contact__input{
+  
+
   width: 100%;
   font-size: var(--normal-font-size);
   font-weight: var(--font-semi);
@@ -331,6 +336,9 @@ img{
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+}
+.contact__input:focus{
+  box-shadow: 0 0 10px 4px var(--wf-color);
 }
 .contact__button{
   display: block;
